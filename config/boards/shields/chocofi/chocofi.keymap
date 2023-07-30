@@ -68,7 +68,7 @@
                         >;
                 };
 
-                function_layer {
+                tri-layer {
                         bindings = <
    &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3      &bt BT_SEL 4           &kp C_PLAY_PAUSE  &kp F7            &kp F8            &kp F9            &kp F10
    &none             &none             &none             &none             &bt BT_CLR             &kp C_VOL_UP      &kp F4            &kp F5            &kp F6            &kp F11
