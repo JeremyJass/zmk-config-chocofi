@@ -6,7 +6,7 @@
 #define BASE   0
 #define NUM    1
 #define SYM    2
-#define FUN    3
+#define FUNC   3
 
 / {
         chosen {
@@ -34,7 +34,7 @@
                 compatible = "zmk,conditional_layers";
                 tri_layer {
                         if-layers = <NUM SYM>;
-                        then-layer = <FUN>;
+                        then-layer = <FUNC>;
                 };
         };
 
