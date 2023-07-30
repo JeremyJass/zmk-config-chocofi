@@ -33,8 +33,8 @@
         conditional_layers {
                 compatible = "zmk,conditional_layers";
                 tri_layer {
-                        if-layers = <NUM SYM>;
-                        then-layer = <FUNC>;
+                        if-layers = <1 2>;
+                        then-layer = <3>;
                 };
         };
 
