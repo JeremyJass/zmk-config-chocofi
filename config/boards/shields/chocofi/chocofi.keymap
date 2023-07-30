@@ -39,7 +39,7 @@
                 tri_layer {
                         if-layers = <NUM SYM>;
                         then-layer = <FUN>;
-                }
+                };
         };
 
         keymap {
