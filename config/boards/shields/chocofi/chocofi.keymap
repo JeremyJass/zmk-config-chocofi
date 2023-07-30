@@ -31,10 +31,10 @@
         };
 
         conditional_layers {
-                compatible = "zmk,conditional_layers";
+                compatible = "zmk,conditional-layers";
                 tri_layer {
-                        if-layers = <1 2>;
-                        then-layer = <3>;
+                        if-layers = <NUM SYM>;
+                        then-layer = <FUNC>;
                 };
         };
 
