@@ -15,7 +15,7 @@
                 default_layer       {
                         bindings = <
    &kp Q             &kp W             &kp E             &kp R             &kp T                  &kp Y             &kp U             &kp I             &kp O             &kp P
-   &hm Alt A        &hm LGUI S        &hm Ctrl D       &hm Shift F      &kp G                  &kp H             &hm Shift J      &hm Ctrl K       &hm LGUI L        &hm Alt SEMI
+   &hm Ctrl A        &hm LGUI S        &hm Alt D         &hm Shift F       &kp G                  &kp H             &hm Shift J       &hm Alt K         &hm LGUI L        &hm Ctrl SEMI
    &kp Z             &kp X             &kp C             &kp V             &kp B                  &kp N             &kp M             &kp COMMA         &kp DOT           &kp FSLH
                                        &kp ESC           &lt NUM RET       &kp Space              &kp Tab           &lt SYM Bspc      &kp DEL
                         >;
@@ -23,9 +23,9 @@
  
                 num_nav_layer {
                         bindings = <
-   &kp ESC           &none             &kp UP            &kp PG_UP         &none                  &kp Mult   &kp 7         &kp 8         &kp 9         &kp Sub
-   &kp Home          &kp LEFT          &kp DOWN          &kp RIGHT         &kp End                &kp Div      &hm Shift 4  &hm Ctrl 5   &hm LGUI 6    &hm Alt Add
-   &kp ESC           &none             &none             &kp PG_DN         &none                  &kp 0         &kp 1         &kp 2         &kp 3         &kp KP_EQUAL
+   &kp ESC           &none             &kp UP            &kp PG_UP         &none                  &kp Mult          &kp 7             &kp 8             &kp 9             &kp Sub
+   &kp Home          &kp LEFT          &kp DOWN          &kp RIGHT         &kp End                &kp Div           &hm Shift 4       &hm Alt 5         &hm LGUI 6        &hm Ctrl Add
+   &kp ESC           &none             &none             &kp PG_DN         &none                  &kp 0             &kp 1             &kp 2             &kp 3             &kp KP_EQUAL
                                        &trans            &trans            &trans                 &trans            &trans            &trans
                         >;
                 };
@@ -33,7 +33,7 @@
                 symbol_layer {
                         bindings = <
    &kp EXCL          &kp AT            &kp HASH          &kp DLLR          &kp PRCNT              &kp CARET         &kp AMPS          &kp STAR          &kp MINUS         &kp EQUAL
-   &hm Alt UNDER    &hm LGUI LBKT     &hm Ctrl LBRC    &hm Shift LPAR   &kp LT                 &kp GT            &hm Shift RPAR   &hm Ctrl RBRC    &hm LGUI RBKT     &hm Alt PLUS
+   &hm Ctrl UNDER    &hm LGUI LBKT     &hm Alt LBRC      &hm Shift LPAR    &kp LT                 &kp GT            &hm Shift RPAR    &hm Alt RBRC      &hm LGUI RBKT     &hm Ctrl PLUS
    &kp GRAVE         &none             &none             &none             &kp SINGLE_QUOTE       &kp DOUBLE_QUOTES &none             &none             &none             &kp BSLH
                                        &trans            &trans            &trans                 &trans            &trans            &trans
                         >;
